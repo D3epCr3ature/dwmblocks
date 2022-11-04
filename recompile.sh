@@ -1,6 +1,6 @@
 echo "-------------------------------------------------"
 if [ -f blocks.h ]; then
-	echo "Remove old generated config.h"
+	echo "Remove old generated blocks.h"
 	rm blocks.h
 fi
 echo
