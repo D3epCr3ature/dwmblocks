@@ -1,7 +1,7 @@
 echo "-------------------------------------------------"
 if [ -f blocks.h ]; then
 	echo "Remove old generated blocks.h"
-	rm blocks.h
+	echo y | rm blocks.h
 fi
 echo
 echo "-------------------------------------------------"
